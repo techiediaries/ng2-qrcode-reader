@@ -16,7 +16,7 @@ export * from './ng2-qrcode-reader.component';
   ]
 })
 export class NgQRCodeReaderModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<NgQRCodeReaderModule> {
     return {
       ngModule: NgQRCodeReaderModule,
       providers: []
